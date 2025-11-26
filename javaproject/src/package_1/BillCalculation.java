@@ -8,9 +8,10 @@ public class BillCalculation
 		double OriginalPrice= 999.99;
 		int Discount=10;
 		
-		double finalpric =OriginalPrice-(OriginalPrice*Discount/100.0) ;
-		System.out.println("final price: "+finalpric);
-
+		double finalpric =(double)(OriginalPrice*Discount/100);
+		System.out.println("final price: "+(OriginalPrice-finalpric));
+		
+		
 	}
 
 }
