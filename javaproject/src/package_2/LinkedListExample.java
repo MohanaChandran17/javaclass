@@ -1,9 +1,10 @@
 package package_2;
-
 import java.util.LinkedList;
 
-public class LinkedListExample {
-	class 	Node{
+public class LinkedListExample 
+{
+	class 	Node
+	{
 		int data;
 		Node next;
 		Node(int data)
